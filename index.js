@@ -9,7 +9,7 @@ const userAgents = JSON.parse(fs.readFileSync("useragents.json", "utf-8"));
 const convertedTokensPath = "token-converted.json";
 
 // Telegram Bot setup
-const telegramBotToken = '7271892969:AAFmJWFWdL4Hr8tqzoCmA3u8XSyfwsjIOdI';
+const telegramBotToken = '7507240778:AAFGaA_ygypAo5sbq-v8d9Sghv_QURusO40';
 const chatId = '5637543234';
 const bot = new TelegramBot(telegramBotToken);
 
