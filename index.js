@@ -301,7 +301,7 @@ const startClaiming = async () => {
     console.log(
       chalk.cyan(`${getTimestamp()} Waiting 5 minutes before starting again...`)
     );
-    await new Promise((resolve) => setTimeout(resolve, 5 * 60 * 1000)); // Wait 5 minutes before starting again
+    await new Promise((resolve) => setTimeout(resolve, 500 * 60 * 1000)); // Wait 5 minutes before starting again
   }
 };
 
